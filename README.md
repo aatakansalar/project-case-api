@@ -1,4 +1,4 @@
-# ProjectAPI
+# Project Case API
 
 *Turkish Text Classification with BERT*
 
