@@ -9,10 +9,5 @@ class TurkishTextClassificationModel:
     def classify_text(self, text: str):
         prediction = self.model.predict([text])
         predicted_category = prediction[0][0]
-        print(prediction)
-        print(type(prediction))
-        print("---")
         
-        print(predicted_category)
-        print(self.categories[predicted_category])
         return {"category": self.categories[predicted_category]}
